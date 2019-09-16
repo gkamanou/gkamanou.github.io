@@ -9,6 +9,47 @@
 
 .carousel-item img {
   width: auto;
-  height: 800px;
   margin: auto;
+}
+
+@media only screen and (max-width: 300px) {
+  .carousel-item img {
+    height: 100px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h2.lead {
+    font-size: 10px;
+  }
+  .navbar-brand{
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 599px) {
+  .carousel-item img {
+    height: 250px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2.lead {
+    font-size: 15px;
+  }
+  .navbar-brand{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .carousel-item img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 901px){
+  .carousel-item img {
+    height: 800px;
+  }
 }
