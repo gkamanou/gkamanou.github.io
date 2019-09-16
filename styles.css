@@ -1,17 +1,14 @@
-* {
-  margin:0px;
-  padding:0px;
+.masthead {
+  height: 100vh;
+  min-height: 800px;
+  background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.carousel-item img {
+  width: auto;
+  height: 800px;
+  margin: auto;
 }
